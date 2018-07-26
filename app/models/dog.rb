@@ -9,7 +9,7 @@ class Dog
     @age = age
     @@all << self
   end
-binding.pry
+#binding.pry
   def self.all
     @@all
   end
